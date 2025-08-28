@@ -9,7 +9,9 @@ import jakarta.persistence.Id;
 
 public class Categoria {
     @Id
-    @GeneratedValue (strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     public Integer  codigo;
     public String nome;
+ 
 }

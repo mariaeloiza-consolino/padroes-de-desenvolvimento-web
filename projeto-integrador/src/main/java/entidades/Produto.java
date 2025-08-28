@@ -23,5 +23,7 @@ public class Produto{
     @ManyToOne
     public Categoria categoria;
 
+    @ManyToOne
+    public Fabricante fabricante;
     
 }
