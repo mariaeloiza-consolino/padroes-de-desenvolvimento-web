@@ -54,16 +54,16 @@ insert into Cliente (nome, cpf) values ('Ricardo Monteiro','147.369.258-77');
 insert into Cliente (nome, cpf) values ('Sofia Carvalho','258.147.369-88');
 insert into Cliente (nome, cpf) values ('Thiago Moreira','159.753.486-99');
 
-insert into Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) values ('15:32:01', 78.52, 4, 1 , 1);
-insert into Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) values ('10:15:23', 152.30, 6, 2 , 3);
-insert into Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) values ('11:47:50', 45.90, 2, 3 , 5);
-insert into Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) values ('13:05:12', 210.75, 8, 4 , 2);
-insert into Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) values ('14:58:44', 32.10, 1, 5 , 7);
-insert into Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) values ('16:20:33', 99.99, 3, 6 , 4);
-insert into Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) values ('17:45:21', 305.60, 10, 7 , 9);
-insert into Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) values ('18:30:09', 120.00, 5, 8 , 6);
-insert into Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) values ('19:10:55', 76.45, 2, 9 , 8);
-insert into Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) values ('20:25:40', 58.20, 3, 10 , 10);
+insert into Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) values ('2025-09-01 15:32:01', 78.52, 4, 1 , 1);
+insert into Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) values ('2025-09-02 10:15:23', 152.30, 6, 2 , 3);
+insert into Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) values ('2025-09-03 11:47:50', 45.90, 2, 3 , 5);
+insert into Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) values ('2025-09-04 13:05:12', 210.75, 8, 4 , 2);
+insert into Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) values ('2025-09-05 14:58:44', 32.10, 1, 5 , 7);
+insert into Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) values ('2025-09-06 16:20:33', 99.99, 3, 6 , 4);
+insert into Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) values ('2025-09-07 17:45:21', 305.60, 10, 7 , 9);
+insert into Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) values ('2025-09-08 18:30:09', 120.00, 5, 8 , 6);
+insert into Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) values ('2025-09-09 19:10:55', 76.45, 2, 9 , 8);
+insert into Venda (horario, valorTotal, quantidadeTotal, cliente_codigo, funcionario_codigo) values ('2025-09-10 20:25:40', 58.20, 3, 10 , 10);
 
 insert into ItemVenda (valorParcial, quantidadeParcial, produto_codigo) values (25.00, 2, 1);
 insert into ItemVenda (valorParcial, quantidadeParcial, produto_codigo) values (45.90, 1, 2);
