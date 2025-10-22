@@ -1,0 +1,27 @@
+package entidades;
+
+import java.time.LocalDate;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+import io.quarkus.test.junit.QuarkusTest;
+import jakarta.transaction.Transactional;
+
+@QuarkusTest
+public class ProdutoTests {
+    @Test
+    @Transactional
+    public void testeBuscaUmaCategoriaBuscaUmFabricanteSalvaUmProduto () {
+        Produto produto = new Produto();
+        produto.nome = "Fanta Laranja 2 Litros";
+        produto.preco = 9.45;
+        produto.quantidade = 50;
+        produto.Validade = LocalDate.of(2025, 12, 21); 
+        produto.categoria = Categoria.findById(1);
+        produto.fabricante = Fabricante.findById(2);
+        produto.persist();
+
+        Assertions.assertEquals(11, produto.codigo);
+    }
+}
