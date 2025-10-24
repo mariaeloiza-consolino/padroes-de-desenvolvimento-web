@@ -1,8 +1,13 @@
 package recursos;
 
-import entidades.Categoria;
+import java.util.List;
 
-@Path("categorias")
+import entidades.Categoria;
+import io.quarkus.panache.common.Sort;
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.Path;
+
+@Path ("categorias")
 
 public class CategoriaRecurso {
     @GET

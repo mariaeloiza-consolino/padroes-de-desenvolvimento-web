@@ -1,11 +1,16 @@
 package recursos;
 
-import javax.annotation.processing.Generated;
+import java.util.List;
 
-@Path("clientes")
+import entidades.Cliente;
+import io.quarkus.panache.common.Sort;
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.Path;
+
+@Path ("clientes")
 
 public class ClienteRecurso {
-    @Generated
+    @GET
     public List <Cliente> listar(){
         return Cliente.listAll(Sort.ascending("nome"));
     }
