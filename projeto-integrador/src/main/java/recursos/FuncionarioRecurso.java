@@ -2,7 +2,6 @@ package recursos;
 
 import java.util.List;
 
-import javax.annotation.processing.Generated;
 
 import entidades.Funcionario;
 import io.quarkus.panache.common.Sort;
